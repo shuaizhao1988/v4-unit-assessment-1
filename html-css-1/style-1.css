@@ -1,0 +1,28 @@
+h1 {
+  background-color: rgb(229, 114, 114);
+}
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+span {
+  display: inline;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: right;
+}
+.image1 {
+  width: 100px;
+  float: left;
+  clear: none;
+}
+.image2 {
+  width: 100px;
+  float: right;
+  clear: none;
+}
+.article {
+  border-style: dotted;
+  padding: 20px;
+}

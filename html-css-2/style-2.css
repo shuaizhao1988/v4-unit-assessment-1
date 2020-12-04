@@ -1,0 +1,105 @@
+h1 {
+  background-color: rgb(113, 226, 183);
+  padding: 30px;
+  margin: 0 auto;
+  font-family: "Castoro", serif;
+}
+h3 {
+  font-family: "Castoro", serif;
+  font-size: 25px;
+}
+.first {
+  display: flex;
+  align-items: flex-end;
+  border-style: dashed;
+}
+.second {
+  border-style: dashed;
+}
+.third {
+  border-style: dashed;
+}
+#rectangle {
+  width: 200px;
+  height: 100px;
+  background: purple;
+  border: solid 2px red;
+  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+
+#square {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  box-shadow: 5px 5px 5px black;
+  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+
+#big-square {
+  width: 150px;
+  height: 150px;
+  background: rgb(219, 122, 217);
+  border: solid 1px black;
+  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+#head {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-radius: 50%;
+  margin: 5px 0px 0px 20px;
+  box-sizing: content-box;
+}
+#body {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border: solid 1px black;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+#bottom {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 10px;
+}
+#biggest {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: lightgoldenrodyellow;
+  border: solid 1px black;
+  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+#green {
+  display: flex;
+  position: absolute;
+  background-color: green;
+  width: 120px;
+  height: 120px;
+  border: solid 1px;
+  border-radius: 50%;
+}
+#red {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: red;
+  box-shadow: 5px 5px 5px;
+  margin: 20px;
+  padding: 0 20px;
+  box-sizing: content-box;
+  position: relative;
+}
